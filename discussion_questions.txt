@@ -1,0 +1,48 @@
+Runtime
+
+1.  How many crackers are in the box
+
+2.  O(1)
+    O(log n)
+    O(n)
+    O(n log n)
+    O(n^2)
+    O(2^n)
+
+
+Stacks & Queues
+
+1.  1.  Stack
+    2.  Queue
+    3.  Stack
+
+2.  1.  Seating customers at a restaurant in the order they arrived
+    2.  Managing inventory for a grocery store / other perishable goods
+
+3.  1.  Determining layoffs based on seniority
+    2.  Displaying blog posts in reverse chronological order
+
+
+Linked Lists
+
+1.  The nodes are all the boxes except the one labeled LLIST
+    The data in the first node is "Apple"
+    The data in the second node is "Berry"
+    The data in the third node is "Cherry"
+    The arrow from LLIST.head points to the first node (with the data "Apple"), so it is the head of the list
+    The arrow from the next property of the third node (with the data "Cherry") points to None, so it is the tail of the list
+
+2.  In singly-linked lists, each node references only the next node
+    In doubly-linked lists, each node references both the next and previous nodes
+
+3.  If we keep track of the tail of a linked lists, we can immediately update the its next property (and update the tail to reference the newly appended node) instaed of starting at the head and traversing the entire length of the list to find a node that references None
+
+
+Trees
+
+1.  food, Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, burritos
+
+2.  food, Italian, lasagna, pizza, thin crust, Chicago-style
+
+3.  In a binary search tree, a node can only have up to 2 children
+    Conventionally, each left child contains data that is less than the data in its parent & each right child contains data that is greater than the data in its parent
